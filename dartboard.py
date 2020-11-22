@@ -1,22 +1,30 @@
 import random
 import math
 
+radius = 100
+
 def getRandomNumber():
     return random.randint(0, radius)
 
-radius = 100
-totalAmountOfHits = 100000
-
-for i in range (0, 100000):
+def calculatePi(totalAmountOfHits):
+    
     hitsInsideCircleArea = 0
 
     for i in range(0,totalAmountOfHits):
         x = getRandomNumber()
         y = getRandomNumber()
         r = math.sqrt(x*x + y*y)
-        print("r " + str(r))
         if r <= radius:
             hitsInsideCircleArea += 1
 
-    print("Pi: " + str(4*hitsInsideCircleArea/totalAmountOfHits))
+    return 4* hitsInsideCircleArea / totalAmountOfHits
+
+def main():
+    for i in range (1, 100):
+        pi =  calculatePi(i)
+        print("Pi based on "+ str(i) + " hits: " + str(pi))
+
+
+if __name__ == "__main__":
+    main()
 
