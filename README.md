@@ -1,10 +1,33 @@
-# Facharbeit - Approximation der Kreiszahl Pi (π) & aktuelle Diskussionen zum Thema
+# Facharbeit – Approximation der Kreiszahl Pi (π) & aktuelle Diskussionen zum Thema
 
-_english title: Approximation of Pi (π)_
+English version below.
 
-Das Thema meiner Facharbeit war *"Approximation der Kreiszahl Pi & aktuelle Diskussionen zum Thema"*. Diese habe ich am 14.03.2017 (was zufällig auch der Pi-Tag 03/14 ist)
-am Julius-Ambrosius-Hülße Gymnasium abgegeben. Sie behandelt Möglichkeiten die Kreiszahl Pi zu bestimmen. Pi kann jedoch bekanntlich nicht einfach "berechnet" werden, sondern nur approximiert, da es sich bei Pi um eine irrationale Zahl handelt. Dabei bin ich auf eine Auswahl von experimentellen, primitiven und algorithmischen Näherungsverfahren eingegangen und habe als Eigenanteil einen eigenen Algorithmus entwickelt.
+_English title: Approximation of Pi (π)_
 
-- Die Facharbeit kann <a href="https://github.com/SoWieMarkus/Facharbeit/blob/main/Facharbeit.pdf">hier</a> gelesen werden.
-- Meine Powerpoint Präsentation der Verteidigung ist <a href="https://github.com/SoWieMarkus/Facharbeit/blob/main/Versuche%20der%20Ann%C3%A4herung%20an%20die%20Kreiszahl%20und%20aktuelle.pptx">hier</a> zu finden.
-- Der Dartboard Algorithmus ist <a href="https://github.com/SoWieMarkus/Facharbeit/blob/main/dartboard.py">hier</a> als Python Skript zu finden
+Das Thema meiner Facharbeit war _"Approximation der Kreiszahl Pi & aktuelle Diskussionen zum Thema"_. Ich habe sie am 14.03.2017, dem internationalen Pi-Tag (03/14), am Julius-Ambrosius-Hülße-Gymnasium eingereicht. Die Arbeit behandelt verschiedene Möglichkeiten, die Kreiszahl Pi zu bestimmen. Da Pi eine irrationale Zahl ist, kann sie nicht exakt berechnet, sondern nur näherungsweise bestimmt werden. In der Arbeit werden experimentelle, einfache und algorithmische Näherungsverfahren vorgestellt. Als Eigenanteil habe ich zudem einen eigenen Algorithmus entwickelt.
+
+- Die Facharbeit kann [hier](https://github.com/SoWieMarkus/Facharbeit/blob/main/Facharbeit.pdf) gelesen werden.
+- Die Präsentation zur Verteidigung ist [hier](https://github.com/SoWieMarkus/Facharbeit/blob/main/Versuche%20der%20Ann%C3%A4herung%20an%20die%20Kreiszahl%20und%20aktuelle.pptx) verfügbar.
+
+Eine Auswahl der in der Arbeit vorgestellten Algorithmen ist beispielhaft in Python implementiert:
+
+- `python scripts/coprime.py --amount 10000 --max_value 10`
+- `python scripts/geometric.py --iterations 10`
+- `python scripts/monte-carlo.py --amount 10000 --side_length 1`
+- `python scripts/chudnovsky.py`
+
+---
+
+# Approximation of Pi (π) & Current Discussions
+
+The topic of my thesis was _"Approximation of Pi & current discussions on the topic"_. I submitted it on March 14, 2017 (Pi Day, 03/14) at Julius-Ambrosius-Hülße-Gymnasium. The thesis explores various ways to determine the value of Pi. Since Pi is an irrational number, it cannot be calculated exactly, but only approximated. The paper presents experimental, simple, and algorithmic approximation methods. As an original contribution, I also developed my own algorithm.
+
+- The thesis (in German) can be read [here](https://github.com/SoWieMarkus/Facharbeit/blob/main/Facharbeit.pdf).
+- The defense presentation is available [here](https://github.com/SoWieMarkus/Facharbeit/blob/main/Versuche%20der%20Ann%C3%A4herung%20an%20die%20Kreiszahl%20und%20aktuelle.pptx).
+
+A selection of the algorithms presented in the thesis is implemented in Python:
+
+- `python scripts/coprime.py --amount 10000 --max_value 10`
+- `python scripts/geometric.py --iterations 10`
+- `python scripts/monte-carlo.py --amount 10000 --side_length 1`
+- `python scripts/chudnovsky.py`
